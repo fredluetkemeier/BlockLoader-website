@@ -144,13 +144,14 @@ a.button {
     text-align: center;
     font-size: 20px;
     margin: auto;
-    background: linear-gradient(-45deg, rgb(131, 200, 230), rgb(90, 83, 167));
+    background: linear-gradient(-45deg, rgb(90, 83, 167), rgb(131, 200, 230));
     background-size: 400% 400%;
     animation: gradient 8s ease infinite;
-    transition: color 0.5s;
+    transition: color 0.5s, box-shadow 0.3s;
 }
 .button:hover {
     color: rgb(204, 240, 255);
+    box-shadow: 0px 0px 6px 2px rgb(29, 29, 29);
 }
 /* The about part of the site */
 .aboutbody {
