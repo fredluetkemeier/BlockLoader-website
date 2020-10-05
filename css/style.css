@@ -1,6 +1,4 @@
 html {
-  height: 100%;
-  width: 100%;
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
@@ -38,10 +36,10 @@ body {
   font-family: Quicksand;
   margin: auto;
 }
+/* Wrapper for set website */
 .wrapper {
   white-space: nowrap;
   min-width: 1000px;
-  height: 1000px;
 }
 /* The heading of the webpage */
 .heading {
