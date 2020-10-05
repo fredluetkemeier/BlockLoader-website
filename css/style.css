@@ -124,6 +124,7 @@ body {
   background: transparent;
   text-align: center;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 a.button {
   -webkit-appearance: button;
