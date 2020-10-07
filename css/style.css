@@ -54,7 +54,7 @@ body {
   padding-top: 80px;
   /* Animation */
   background: linear-gradient(-45deg, rgb(90, 83, 167), rgb(131, 200, 230));
-  background-size: 400% 400%;
+  background-size: 500% 500%;
   animation: gradient 8s ease infinite;
   /* Font */
   font-size: 12px;
@@ -67,7 +67,7 @@ body {
     background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 100% 100%;
   }
   100% {
     background-position: 0% 50%;
