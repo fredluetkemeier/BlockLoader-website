@@ -34,7 +34,7 @@ html {
 body {
   background: rgb(54, 54, 54);
   margin: auto;
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Wrapper for set website */
@@ -141,7 +141,7 @@ body {
 }
 
 .button1 {
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   border-radius: 20px;
   border: none;
   text-decoration: none;
@@ -208,7 +208,7 @@ a {
   }
 
   .button1 {
-    font-family: Quicksand;
+    font-family: "Quicksand", sans-serif;
     border-radius: 20px;
     border: none;
     text-decoration: none;
