@@ -59,6 +59,11 @@ body {
   text-align: center;
 }
 
+.headinglink {
+  height: 0px;
+  width: 0px;
+}
+
 /* keyframes for animation */
 @keyframes gradient {
   0% {
