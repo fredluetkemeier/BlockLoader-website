@@ -124,10 +124,9 @@ body {
 }
 
 .logo-text {
-  font-weight: bolder;
   margin: auto;
-  padding-top: 0px;
-  font-size: 85px;
+  padding-top: 25px;
+  font-size: 70px;
   color: rgb(204, 240, 255);
 }
 
@@ -172,13 +171,6 @@ body {
   padding-top: 60px;
 }
 
-.about {
-  margin: auto;
-  font-size: 18px;
-  font-weight: 600;
-  color: rgb(204, 240, 255);
-}
-
 .about-text {
   margin: auto;
   font-size: 20px;
@@ -200,10 +192,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .about {
+  .logo-text {
     margin: auto;
-    font-size: 15px;
-    font-weight: 600;
+    padding-top: 25px;
+    font-size: 40px;
     color: rgb(204, 240, 255);
   }
 
