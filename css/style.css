@@ -86,13 +86,13 @@ body {
 
 .links {
   margin: auto;
-  padding: 40px;
   padding-top: 28px;
   padding-right: 0px;
   float: right;
   font-size: 20px;
   font-weight: 600;
   color: rgb(203, 243, 251);
+  cursor: pointer;
 }
 
 .links a {
@@ -107,11 +107,12 @@ body {
   animation: gradient 8s ease infinite;
   color: rgb(203, 243, 251);
   text-align: center;
+  cursor: default;
 }
 
 .name {
   margin: auto;
-  padding: 100px 0px 40px 0px;
+  padding: 150px 0px 40px 0px;
   font-size: 110px;
 }
 
@@ -134,4 +135,33 @@ body {
   background: rgb(54, 54, 54);
   margin: auto;
   padding-bottom: 900px;
+}
+
+.download {
+  margin: auto;
+  background: transparent;
+  text-align: center;
+  padding: 0px 0px 300px 0px;
+}
+
+.button1 {
+  font-family: "Quicksand", sans-serif;
+  border-radius: 40px;
+  border: none;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(95, 95, 174);
+  background-color: rgb(203, 243, 251);
+  padding: 8px 20px;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  cursor: pointer;
+  /* Button Animation */
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button1:hover {
+  background-color: rgb(95, 95, 174);
+  color: rgb(203, 243, 251);
 }
