@@ -52,8 +52,10 @@ body {
 
 .head {
   height: 80px;
-  position: sticky;
-  top: 0;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
   margin: auto;
   background: rgb(95, 95, 174);
 }
@@ -146,8 +148,12 @@ body {
   padding-right: 80px;
 }
 
+/* The content of the page */
+
 .middle {
   margin: auto;
+  width: 100%;
+  height: 900px;
   padding: 0px 0px 0px 0px;
   background: linear-gradient(45deg, rgb(95, 95, 174), rgb(119, 166, 211));
   background-size: 800% 800%;
@@ -157,9 +163,15 @@ body {
   cursor: default;
 }
 
+.wrap {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
 .name {
   margin: auto;
-  padding: 150px 0px 40px 0px;
+  padding: 250px 0px 40px 0px;
   font-size: 110px;
 }
 
@@ -176,12 +188,6 @@ body {
 
 .content span {
   font-weight: 300;
-}
-
-.tail {
-  background: rgb(54, 54, 54);
-  margin: auto;
-  padding-bottom: 900px;
 }
 
 .download {
@@ -212,3 +218,12 @@ body {
   background-color: rgb(95, 95, 174);
   color: rgb(203, 243, 251);
 }
+
+.tail {
+  margin: auto;
+  transform: translateZ(1px);
+  background: rgb(54, 54, 54);
+  height: 900px;
+}
+
+@media and screen;
