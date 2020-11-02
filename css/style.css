@@ -2,6 +2,7 @@ html {
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -140,12 +141,13 @@ body {
   float: right;
   font-size: 20px;
   font-weight: 600;
-  color: rgb(203, 243, 251);
   cursor: pointer;
 }
 
 .links a {
   padding-right: 80px;
+  text-decoration: none;
+  color: rgb(203, 243, 251);
 }
 
 /* The content of the page */
@@ -153,7 +155,7 @@ body {
 .middle {
   margin: auto;
   width: 100%;
-  height: 900px;
+  height: 1200px;
   padding: 0px 0px 0px 0px;
   background: linear-gradient(45deg, rgb(95, 95, 174), rgb(119, 166, 211));
   background-size: 800% 800%;
@@ -182,12 +184,12 @@ body {
 .content {
   margin: auto;
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 400;
   padding: 0px 0px 80px 0px;
 }
 
 .content span {
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .download {
@@ -221,9 +223,54 @@ body {
 
 .tail {
   margin: auto;
+  text-align: center;
   transform: translateZ(1px);
   background: rgb(54, 54, 54);
-  height: 900px;
+  color: rgb(203, 243, 251);
+  height: 2000px;
 }
 
-@media screen and (max-height);
+.about {
+  padding: 100px 0px 0px 0px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.tail p {
+  margin: 0px;
+}
+
+.firstimg {
+  margin: auto;
+  padding: 150px 0px 0px 0px;
+}
+
+.screen1 {
+  width: 100%;
+  max-width: 700px;
+  padding-right: 20px;
+  height: auto;
+  float: left;
+  border: 8px solid rgb(203, 243, 251);
+  border-radius: 20px;
+}
+
+.screen1text {
+  margin: auto;
+  padding: 150px 0px 0px 0px;
+  font-size: 35px;
+  font-weight: 500;
+  max-width: 650px;
+  min-width: 400px;
+}
+
+@media screen and (max-height: 800px) {
+  .name {
+    margin: auto;
+    padding: 200px 0px 40px 0px;
+    font-size: 110px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+}
