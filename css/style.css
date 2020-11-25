@@ -249,7 +249,7 @@ body {
 .screen1 {
   width: 100%;
   max-width: 700px;
-  margin: 0px 0px 0px 90px;
+  margin: 0px 0px 0px 200px;
   height: auto;
   float: left;
   border: 8px solid rgb(203, 243, 251);
@@ -259,7 +259,7 @@ body {
 .screen1text {
   margin: auto;
   float: right;
-  padding: 150px 90px 0px 0px;
+  padding: 150px 200px 0px 0px;
   font-size: 35px;
   font-weight: 500;
   width: 600px;
@@ -273,7 +273,7 @@ body {
 .screen2 {
   width: 100%;
   max-width: 700px;
-  margin: 0px 90px 0px 0px;
+  margin: 0px 200px 0px 0px;
   height: auto;
   float: right;
   border: 8px solid rgb(203, 243, 251);
@@ -283,7 +283,7 @@ body {
 .screen2text {
   margin: auto;
   float: left;
-  padding: 150px 0px 0px 90px;
+  padding: 150px 0px 0px 200px;
   font-size: 35px;
   font-weight: 500;
   width: 600px;
