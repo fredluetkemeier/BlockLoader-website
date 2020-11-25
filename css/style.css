@@ -243,12 +243,13 @@ body {
 .firstimg {
   margin: auto;
   padding: 150px 0px 0px 0px;
+  height: 600px;
 }
 
 .screen1 {
   width: 100%;
   max-width: 700px;
-  padding-right: 20px;
+  margin: 0px 0px 0px 90px;
   height: auto;
   float: left;
   border: 8px solid rgb(203, 243, 251);
@@ -257,11 +258,35 @@ body {
 
 .screen1text {
   margin: auto;
-  padding: 150px 0px 0px 0px;
+  float: right;
+  padding: 150px 90px 0px 0px;
   font-size: 35px;
   font-weight: 500;
-  max-width: 650px;
-  min-width: 400px;
+  width: 600px;
+}
+
+.firstimg2 {
+  margin: auto;
+  padding: 150px 0px 0px 0px;
+}
+
+.screen2 {
+  width: 100%;
+  max-width: 700px;
+  margin: 0px 90px 0px 0px;
+  height: auto;
+  float: right;
+  border: 8px solid rgb(203, 243, 251);
+  border-radius: 20px;
+}
+
+.screen2text {
+  margin: auto;
+  float: left;
+  padding: 150px 0px 0px 90px;
+  font-size: 35px;
+  font-weight: 500;
+  width: 600px;
 }
 
 @media screen and (max-height: 800px) {
